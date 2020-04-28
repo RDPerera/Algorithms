@@ -12,7 +12,7 @@ def swap(i, j):
 def bubSort(arr):
     size = len(arr)
     for i in range(0, size):
-        for j in range(0, size-i-1):
+        for j in range(0, size-i-1):#dfghjk
             if arr[j] > arr[j+1]:
                 swap(j+1, j)
 
